@@ -1,0 +1,35 @@
+@keyframes link-hover {
+    from {
+        color: whitesmoke;
+    }
+    to {
+        color: rgb(46, 46, 255);
+    }
+}
+
+@keyframes link-unhover {
+    from {
+        color: rgb(46, 46, 255);
+    }
+    to {
+        color: whitesmoke;
+    }
+}
+
+@keyframes link-hover-visited {
+    from {
+        color: rgb(226, 226, 255);
+    }
+    to {
+        color: rgb(46, 46, 255);
+    }
+}
+
+@keyframes link-unhover-visited {
+    from {
+        color: rgb(226, 226, 255);
+    }
+    to {
+        color: whitesmoke;
+    }
+}

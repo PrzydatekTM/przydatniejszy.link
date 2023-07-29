@@ -1,0 +1,65 @@
+@import url('link-keyframes.css');
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url('comicsans.ttf') format('truetype');
+}
+
+body {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    margin: 0;
+    font-family: 'Comic Sans MS';
+}
+
+#text {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 48px;
+}
+
+#text>#tm {
+    font-size: 24px;
+    vertical-align: text-top;
+}
+
+#list-text {
+    font-size: 26px;
+    margin-left: 5px;
+}
+
+.channel {
+    width: 200px;
+    float: left;
+}
+
+.channel>a {
+    text-decoration: none;
+}
+
+.channel-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    width: 150px;
+}
+
+.channel-name {
+    font-size: 16px;
+    text-align: center;
+    color: whitesmoke;
+    animation: link-unhover 0.3s ease-in;
+}
+
+.channel-name:hover {
+    animation: link-hover 0.5s ease-out infinite alternate;
+}
+
+.channel-name:visited {
+    color: rgb(226, 226, 255);
+    animation: link-unhover-visited 0.3s ease-in;
+}
+
+.channel-name:visited:hover {
+    animation: link-hover-visited 0.5s ease-out infinite alternate;
+}
